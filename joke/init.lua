@@ -1,7 +1,7 @@
 minetest.register_chatcommand("joke", {
     privs = {
         interact = true
-    },
+        },
 
     func = function(param) {
         jokes = {
