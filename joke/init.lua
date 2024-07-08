@@ -7,8 +7,7 @@ minetest.register_chatcommand("joke", {
         jokes = {
             "joke",
             "a really bad joke",
-            "This is a bad joke",
-            ""
+            "This is a bad joke"
         }
         return(jokes[math.random(0, jokes.length + 1)])
     }
