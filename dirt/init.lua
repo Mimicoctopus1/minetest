@@ -11,8 +11,12 @@ minetest.register_tool("dirt:dirt_sword", {
                 times = 1
             }
         }
-
     }
+})
+
+minetest.register_craftitem("dirt:mudpie", {
+    description = "A delicious food that grants lots of food points.",
+    inventory_image = ""
 })
 
 minetest.register_craft({
